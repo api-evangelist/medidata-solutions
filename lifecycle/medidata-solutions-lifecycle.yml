@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: http://rws-webhelp.s3.amazonaws.com/WebHelp_ENG/introduction/index.html
+api: Rave Web Services (RWS)
+versioning:
+  scheme: dated-release
+  note: >-
+    RWS versions track Medidata Rave platform releases and are published as
+    dated release documentation sets (e.g. RWS 2014.2.0). Rave EDC follows the
+    Medidata Clinical Cloud release train; release notes are published to
+    customers via learn.medidata.com (iMedidata login required).
+  docs: http://rws-webhelp.s3.amazonaws.com/WebHelp_ENG/introduction/index.html
+release_notes: https://learn.medidata.com/en-US/bundle/medidata-clinical-cloud-releases/
+deprecation:
+  policy_url: null
+  note: >-
+    No public RFC 8594 Sunset/Deprecation header policy located; deprecation is
+    communicated to members through Developer Central and release notes.
+status_page:
+  url: null
+  note: >-
+    System status / trust dashboards are provided to customers via iMedidata
+    (login required); no public unauthenticated status page located.
+sla:
+  url: null

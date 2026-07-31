@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://techblog.mdsol.com/2015/12/08/rwslib-and-mauth.html
+docs: https://rwslib.readthedocs.io/en/latest/getting_started.html
+summary:
+  types: [http, mauth]
+  http_schemes: [basic]
+  note: >-
+    Rave Web Services has no published OpenAPI; auth model captured from the
+    RWS documentation, the Medidata tech blog, and the rwslib client library.
+schemes:
+- name: HTTP Basic
+  type: http
+  scheme: basic
+  description: >-
+    The external calling system supplies a Rave username and password using
+    HTTP Basic authentication over HTTPS. Simplest to set up but subject to
+    password expiry, so Medidata recommends MAuth for long-lived integrations.
+  sources: [docs]
+- name: MAuth
+  type: http
+  scheme: request-signing
+  description: >-
+    Medidata's MAuth (Mutual Authentication) request-signing scheme. The client
+    signs each request with an RSA private key tied to an MAuth App ID; the
+    server verifies against the registered public key. A user account associated
+    with an MAuth App ID does not have password expiry, making MAuth the
+    preferred approach for long-term integrations. Client libraries:
+    requests-mauth (Python/requests) and mauth-client.
+  clients:
+  - https://github.com/mdsol/requests-mauth
+  - https://github.com/mdsol/mauth-client-python
+  sources: [https://techblog.mdsol.com/2015/12/08/rwslib-and-mauth.html]
