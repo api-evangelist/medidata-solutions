@@ -5,9 +5,8 @@ and the request was honored in full.
 
 ## What was asked, and what was done
 
-Liz Frenz, Manager of Information Security at Medidata Solutions, Inc. (a Dassault
-Systèmes company), requested removal of this repository and of the company's page on
-providers.apievangelist.com. Both are gone, along with every artifact, API record,
+Medidata Solutions, Inc. requested removal of this repository and of the company's
+page on providers.apievangelist.com. Both are gone, along with every artifact, API record,
 specification, developer-surface link, screenshot, score history and index membership
 this profile carried.
 
